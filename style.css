@@ -1,0 +1,123 @@
+body { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;
+}
+
+pin { font-size:300% }
+ 
+big{ font-size:200% }
+
+kindabig{ font-size:150% }
+
+green{ background:#83F52C; }
+red { background:red; }
+ button.styled{
+  color: #040;
+  font: bold 110% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  background: -moz-linear-gradient(top, #ffffff, #ffeedd);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fed));
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffeeddaa');
+  border-width: 0.1em;
+  height:2em;
+  width:5em;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  vertical-align: middle;
+}
+ button.big{
+  color: #040;
+  font: bold 110% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  background: -moz-linear-gradient(top, #ffffff, #ffeedd);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fed));
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffeeddaa');
+  border-width: 0.5em;
+  height:5em;
+  width:10em;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  vertical-align: middle;
+}
+ button.wide{
+  color: #040;
+  font: bold 110% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  background: -moz-linear-gradient(top, #ffffff, #ffeedd);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fed));
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffeeddaa');
+  border-width: 0.5em;
+  height:5em;
+  width:20em;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  vertical-align: center;
+}
+ button.bigger{
+  color: #040;
+  font: bold 110% 'trebuchet ms',helvetica,sans-serif;
+  background-color:#fed;
+  background: -moz-linear-gradient(top, #ffffff, #ffeedd);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fed));
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffeeddaa');
+  border-width: 0.5em;
+  height:50em;
+  width:100em;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  vertical-align: middle;
+}
+button:hover {
+  background-color:#A9D0F5;
+  background: -moz-linear-gradient(top, #ffffff, #a9d0f5);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#a9d0f5));
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#a9d0f5aa'); /* border-color: #c63 #930 #930 #c63; */
+}
+
+
+legend, label, input, select, option {
+  font-size: 200%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input#barcode, textarea#barcode {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  width: 22em;
+}
+fieldset { /* width: 700px;*/
+  text-align: center;
+  border-style: solid none none none;
+  border-width: 0.4em;
+}
+
+
+table
+{ 
+margin-left: auto;
+margin-right: auto;
+}
+
+table.list {
+    width:           100%;
+    text-align:      center;
+    border-collapse: collapse;
+}
+table.list td {
+    border:  1px solid black;
+    padding: 5px;
+}
+table.list tr.header {
+    background:     #99CCFF;
+    font-weight:    bold;
+    vertical-align: bottom;
+}
+table.list tr.header a,
+table.list tr.header a:hover,
+table.list tr.header a:visited {
+    color:           black;
+    text-decoration: none;
+}
+
+#badgeMenu { border-color: blue; } itemMenu { border-color: green; } managementMenu { border-color: red; }
+.uline { text-decoration: underline; }
+
